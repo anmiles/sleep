@@ -1,11 +1,9 @@
 {
-    "version":  "1.0.0",
-    "name":  "sleep",
-    "description":  "",
-    "dependencies":  {
-
-    },
-    "author":  "Anatoliy Oblauhov",
-    "license":  "ISC",
-    "main":  "sleep.js"
+    "version": "1.0.0",
+    "name": "sleep",
+    "description": "",
+    "dependencies": {},
+    "author": "Anatoliy Oblauhov",
+    "license": "ISC",
+    "main": "sleep.js"
 }
