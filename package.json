@@ -3,7 +3,7 @@
     "name": "sleep",
     "description": "",
     "dependencies": {},
-    "author": "Anatoliy Oblauhov",
+    "author": "Anatoliy Oblaukhov",
     "license": "ISC",
     "main": "sleep.js"
 }
