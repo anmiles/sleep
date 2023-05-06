@@ -1,6 +1,6 @@
 {
   "name": "@anmiles/sleep",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Asynchronous sleep",
   "keywords": [],
   "author": "Anatoliy Oblaukhov",
@@ -22,8 +22,7 @@
     "test:watch:coverage": "npm test -- --watch --coverage",
     "test:report:coverage": "nyc report --nycrc-path ./coverage.config.js -t ./coverage --report-dir ./coverage"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@anmiles/eslint-config": "^1.0.4",
     "@types/jest": "^29.5.1",
