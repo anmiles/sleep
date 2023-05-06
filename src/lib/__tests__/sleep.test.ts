@@ -1,7 +1,7 @@
 import sleep from '../sleep';
 
 jest.useFakeTimers();
-const timeout = 1234;
+const timeout     = 1234;
 const delayedFunc = jest.fn();
 
 describe('src/lib/sleep', () => {
@@ -11,7 +11,7 @@ describe('src/lib/sleep', () => {
 		jest.advanceTimersByTime(timeout - 1);
 		await Promise.resolve();
 		expect(delayedFunc).not.toHaveBeenCalled();
-	});	
+	});
 
 	it('should continue after specified delay', async () => {
 		sleep(timeout).then(delayedFunc);
@@ -19,5 +19,5 @@ describe('src/lib/sleep', () => {
 		jest.advanceTimersByTime(timeout);
 		await Promise.resolve();
 		expect(delayedFunc).toHaveBeenCalled();
-	});	
+	});
 });
