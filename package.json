@@ -23,7 +23,7 @@
     "test:report:coverage": "nyc report --nycrc-path ./coverage.config.js -t ./coverage --report-dir ./coverage"
   },
   "devDependencies": {
-    "@anmiles/eslint-config": "^1.0.5",
+    "@anmiles/eslint-config": "^1.0.6",
     "@types/jest": "^29.5.1",
     "@typescript-eslint/eslint-plugin": "^5.59.2",
     "@typescript-eslint/parser": "^5.59.2",
