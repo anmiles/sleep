@@ -2,7 +2,10 @@
   "name": "@anmiles/sleep",
   "version": "3.0.0",
   "description": "Asynchronous sleep",
-  "keywords": [],
+  "keywords": [
+    "sleep",
+    "async"
+  ],
   "author": "Anatoliy Oblaukhov",
   "homepage": "https://gitlab.com/anmiles/lib/sleep",
   "repository": "gitlab:anmiles/lib/sleep",
