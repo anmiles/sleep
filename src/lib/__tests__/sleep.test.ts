@@ -4,9 +4,10 @@ jest.useFakeTimers();
 const timeout     = 1234;
 const delayedFunc = jest.fn();
 
+/* eslint-disable promise/prefer-await-to-then -- allow to test promise in pending state */
 describe('src/lib/sleep', () => {
 	it('should wait specified delay', async () => {
-		sleep(timeout).then(delayedFunc);
+		void sleep(timeout).then(delayedFunc);
 		expect(delayedFunc).not.toHaveBeenCalled();
 		jest.advanceTimersByTime(timeout - 1);
 		await Promise.resolve();
@@ -14,7 +15,7 @@ describe('src/lib/sleep', () => {
 	});
 
 	it('should continue after specified delay', async () => {
-		sleep(timeout).then(delayedFunc);
+		void sleep(timeout).then(delayedFunc);
 		expect(delayedFunc).not.toHaveBeenCalled();
 		jest.advanceTimersByTime(timeout);
 		await Promise.resolve();
