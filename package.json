@@ -1,6 +1,6 @@
 {
 	"name": "@anmiles/sleep",
-	"version": "5.0.1",
+	"version": "5.0.2",
 	"description": "Asynchronous sleep",
 	"keywords": [
 		"sleep",
